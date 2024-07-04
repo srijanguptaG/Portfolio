@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f77ad8055a.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</head>
+<body>
+    <!----------------------------------------Header------------------------------------------>
+    <div id="header">
+<div class="container">
+    <nav>
+        <img src="logo.png" alt="logo" style="width:140px; height:65px;margin-left: -7%;">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a> </li>
+            <li><a href="#about">About</a> </li>
+            <li><a href="#services">Service</a> </li>
+            <li><a href="#portfolio">Portfolio</a> </li>
+            <li><a href="#contact">Contact</a> </li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="note">
+        <h1><span class="typing"></span></h1>
+        <h2>Hey, I'm Srijan <br> from India</h2>
+    </div>
+</div>
+    </div>
+    <!---------------------------------------------About----------------------------------------->
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="abtcol1">
+                <img src="img.png">
+            </div>
+            <div class="abtcol2">
+                <h1> About Me</h1>
+                <p>Hello,I am srijan gupta a Web-Developer. I'm from Jhansi and i am persuing 
+                computer science engineering (BTech) from VIT Bhopal.
+                    I am a good timekeeper, always willing to learn new skills.
+                                I am friendly, helpful and polite, have a good sense of humour.
+                                I am able to work independently in busy environments and also within a team setting.
+                                    I am outgoing and tactful, and able to listen effectively when solving problems.
+                                
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> 
+                    <p class="tab-links" onclick="opentab('certificates')">Certificates</p> 
+                    <p class="tab-links" onclick="opentab('education')">Education</p> 
+                    
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>  UI/UX</span><br> Designing Web/App interfaces  </li>
+                        <li><span>  Front-End Developer</span><br> Architecting and Developing Websites  </li>
+                        <li><span>  Back-End Developer</span><br> Build and Maintain the Mechanisms of Websites  </li>
+                        <li><span>  Web Developement</span><br> Web app Developement  </li>
+                        <li><span>  App Development</span><br> Building Andriod/Ios Apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Certificates">
+                    <ul>
+                        <li><span> The bits and bytes of computer networking </span><br>This certificate represents my dedication to understanding 
+                            the intricate world of computer networking. From TCP/IP to routing protocols, I've delved deep into the 
+                            'bits and bytes' that make the internet work seamlessly </li>
+                        <li><span> Cloud computing </span><br> The Cloud Computing course offered by IIT Kharagpur through the National Programme on 
+                            Technology Enhanced Learning (NPTEL) is designed to provide a comprehensive understanding of the principles 
+                            and practices of cloud computing. </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span> 2021</span><br> Alpine Public School Jhansi </li>
+                        <li><span> 2025</span><br> B.Tech CSE From Vit Bhopal  </li>
+                        <li><span>  2027</span><br>Plans for MBA/MS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------------- services----------------------------->
+<div id="services">
+    <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Creation of websites and pages to reflect a company's brand and
+                        information and ensure a user-friendly experience. Appearance and design are
+                        incorporated as vital elements.
+                    </p>
+                    <a href="#"> Learn more</a>
+
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        UI refers to the screens, buttons, toggles, icons, and other visual elements 
+                        that you interact with when using a website, app, or other electronic device. 
+                        UX refers to the entire interaction 
+                    
+                    </p>
+                    <a href="#"> Learn more</a>
+
+                    
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store" ></i>
+                    <h2>App Design</h2>
+                    <p>
+                        App design combines the user interface (UI) and user experience (UX). 
+                        While UI lends itself to the overall style of the app 
+                        (including the colors, fonts, and general look and feel),
+                        UX focuses on the actual functionality and usability.
+                    </p>
+                    <a href="#"> Learn more</a>
+
+                    
+                </div>
+            </div>
+    </div>
+</div>
+
+<!-- --------------------------------Portfolio-------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world
+                        Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+
+            </div>
+            <div class="work">
+                <img src="work-2.png" >
+                <div class="layer">
+                    <h3> Music App</h3>
+                    <p>The app connects you to the talented people around the world
+                        Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="work-3.png" >
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world
+                        Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">See More </a>
+    </div>
+
+</div>
+<!-----------------------------------contact-------------------------->
+<div id="contact">
+
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fa-solid fa-square-phone"></i>012345678</p>
+                <div class="social-icons">
+                    <a href="" ><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" ><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="" ><i class="fa-brands fa-twitter"></i></a>
+                    <a href="" ><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+<a href="https://drive.google.com/file/d/1rUjfr8ypc-p-CtHVzeqx8btq8hoteJVy/view?usp=drive_link" download class="btn btn2"> Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="#">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit"  class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"><span>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fas fa-heart"></i> all rights reserved. </p>
+    </div>
+</div>
+
+
+
+<script> 
+    var typed = new Typed(".typing",{
+            strings:["Web-Developer","UI-UX Designer","Front-End Developer","Back-End Developer","Free Lancer","App-Developer"],
+            typeSpeed:100,
+            backspeed:60,
+            loop: true
+        });
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>  
+<script>
+var sidemeu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemeu.style.right = "0";
+}
+function closemenu(){
+    sidemeu.style.right = "-200px";
+}
+</script>
+<script>
+    const scriptURL = '#@@#'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
